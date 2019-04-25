@@ -4,13 +4,14 @@
   "description": "Game based Educational Platform",
   "main": "app.js",
   "dependencies": {
+    "mocha": "^6.1.4",
     "readline-sync": "^1.4.9"
   },
   "devDependencies": {
     "jest": "^24.7.1"
   },
   "scripts": {
-    "test": "jest --watchAll"
+    "test": "mocha"
   },
   "jest": {
     "testEnvironment": "node"

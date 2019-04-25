@@ -2,7 +2,7 @@ const {
     getNumOfGames,
     createGame,
     validateAnswer
-} = require('./true_false');
+} = require('../games/true_false');
 
 
 describe('tFGames', () => {
